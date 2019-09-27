@@ -1,6 +1,6 @@
 node{
 stage('scm'){
-git 'https://github.com/udaykumar1993123/spring-petclinic.git'
+git 'https://github.com/wakaleo/game-of-life.git'
 }
 stage('build'){
 sh 'mvn package'
